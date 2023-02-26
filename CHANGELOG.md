@@ -1,6 +1,18 @@
 # Release Notes for 9.x
 
-## [Unreleased](https://github.com/laravel/framework/compare/v9.52.0...9.x)
+## [Unreleased](https://github.com/laravel/framework/compare/v9.52.2...9.x)
+
+
+## [v9.52.2](https://github.com/laravel/framework/compare/v9.52.1...v9.52.2) - 2023-02-21
+
+### Fixed
+- Fixed `Illuminate/Collections/Arr::shuffle()` with empty array ([0c6cae0](https://github.com/laravel/framework/commit/0c6cae0ef647158b9554cad05ff39db7e7ad0d33))
+
+
+## [v9.52.1](https://github.com/laravel/framework/compare/v9.52.0...v9.52.1) - 2023-02-21
+
+### Changed
+- Use secure randomness in Arr:random and Arr:shuffle ([#46105](https://github.com/laravel/framework/pull/46105))
 
 
 ## [v9.52.0](https://github.com/laravel/framework/compare/v9.51.0...v9.52.0) - 2023-02-14
